@@ -80,11 +80,11 @@ h1 {
 }
 
 .enter {
-  border: none;
-  background-color: rgba(0, 0, 0, 0);
-  color: #ff8d60;
-  display: flex;
-  margin-left: 395px;
-  font-size: large;
-  font-weight: bold;
+  border-color: #ffb99d;
+  background-color: #ff8d60;
+  color: #ffffff;
+  padding: 7px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 200px;
 }

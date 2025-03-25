@@ -11,7 +11,13 @@ body {
   text-align: center;
   margin-left: 60px;
 }
+.guitar {
+  margin-left: 33px;
+}
 
+.guitar img {
+  max-width: 420px;
+}
 .maand {
   font-size: 18px;
   font-weight: bold;
