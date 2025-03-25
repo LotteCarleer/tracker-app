@@ -1,0 +1,109 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+}
+.kalender {
+  width: 320px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  align-items: center;
+  text-align: center;
+  margin-left: 60px;
+}
+
+.maand {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.weekdagen,
+.dagen {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 10px;
+}
+
+.weekdagen div {
+  font-weight: light;
+  color: #666;
+}
+
+.dagen div {
+  padding: 10px;
+  text-align: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.dagen .leeg {
+  background: none;
+  cursor: default;
+}
+
+.dagen .highlight {
+  background: #ffb99d;
+  color: black;
+  font-weight: bold;
+}
+
+h1 {
+  font-family: Big Shoulders;
+  color: #ffb99d;
+  text-align: center;
+  font-size: 90px;
+  margin: 0px;
+}
+
+.practiced {
+  background-color: #ff8d60;
+  color: white;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding-top: 1px;
+}
+
+.time a {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #ffb99d;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+  margin-bottom: 30px;
+  font-weight: bold;
+  border-radius: 6px;
+  font-size: x-large;
+}
+
+.log a {
+  text-decoration: none;
+  color: white;
+  font-size: medium;
+}
+
+.log {
+  background-color: #ffb99d;
+  margin-left: 120px;
+  margin-right: 120px;
+  margin-top: 20px;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.277);
+  border: 3px solid #ff8d60;
+}
+
+.today {
+  background-color: #ff8d60;
+  color: white;
+  margin: 20px;
+  margin-top: 50px;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+}

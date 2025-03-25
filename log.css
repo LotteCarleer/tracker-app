@@ -1,0 +1,90 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-family: Big Shoulders;
+  color: #ffb99d;
+  text-align: center;
+  font-size: 90px;
+  margin: 0px;
+}
+
+.back {
+  display: inline-block;
+  color: #ffb99d;
+  font-weight: lighter;
+  margin-left: 8px;
+  margin-bottom: 15px;
+  font-size: 19px;
+}
+
+.one {
+  display: flex;
+  padding: 17px;
+  background-color: #ff8d60;
+  color: white;
+  margin-bottom: 5px;
+}
+
+.two {
+  display: flex;
+  padding: 17px;
+  background: #ff8d60;
+  color: white;
+  margin-bottom: 5px;
+}
+
+.three {
+  display: flex;
+  padding: 17px;
+  background-color: #ff8d60;
+  color: white;
+  margin-bottom: 5px;
+}
+
+.date {
+  padding-right: 48%;
+  font-weight: bolder;
+}
+
+.dates {
+  padding-right: 45%;
+  font-weight: bolder;
+}
+
+.input {
+  background-color: #ff8d60;
+  text-align: center;
+  margin: 20px;
+  margin-top: 400px;
+  border-radius: 6px;
+  color: white;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.301);
+}
+
+.input p {
+  padding-top: 15px;
+  padding-bottom: 10px;
+  font-weight: lighter;
+}
+
+.input input {
+  margin-bottom: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  border: none;
+}
+
+.enter {
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  color: #ff8d60;
+  display: flex;
+  margin-left: 395px;
+  font-size: large;
+  font-weight: bold;
+}
