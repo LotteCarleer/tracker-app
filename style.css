@@ -2,58 +2,6 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: lighter;
 }
-.kalender {
-  width: 320px;
-  background: white;
-  padding: 20px;
-  border-radius: 10px;
-  align-items: center;
-  text-align: center;
-  margin-left: 60px;
-}
-.guitar {
-  margin-left: 33px;
-}
-
-.guitar img {
-  max-width: 420px;
-}
-.maand {
-  font-size: 18px;
-  font-weight: bold;
-  margin-bottom: 10px;
-  text-align: left;
-}
-
-.weekdagen,
-.dagen {
-  display: grid;
-  grid-template-columns: repeat(7, 1fr);
-  gap: 10px;
-}
-
-.weekdagen div {
-  font-weight: light;
-  color: #666;
-}
-
-.dagen div {
-  padding: 10px;
-  text-align: center;
-  border-radius: 50%;
-  cursor: pointer;
-}
-
-.dagen .leeg {
-  background: none;
-  cursor: default;
-}
-
-.dagen .highlight {
-  background: #ffb99d;
-  color: black;
-  font-weight: bold;
-}
 
 h1 {
   font-family: Big Shoulders;
@@ -63,17 +11,12 @@ h1 {
   margin: 0px;
 }
 
-.practiced {
-  background-color: #ff8d60;
-  color: white;
-  margin: 20px;
-  border-radius: 10px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  text-align: center;
-  padding-top: 1px;
+h2 {
+  color: #ff8d60;
+  margin-left: 10px;
 }
 
-.time a {
+.time {
   display: inline-block;
   text-decoration: none;
   background-color: #ffb99d;
@@ -90,26 +33,73 @@ h1 {
 .log a {
   text-decoration: none;
   color: white;
-  font-size: medium;
+  font-size: larger;
+  font-weight: bold;
 }
 
 .log {
   background-color: #ffb99d;
-  margin-left: 120px;
-  margin-right: 120px;
-  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 220px;
   text-align: center;
   border-radius: 15px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.277);
   border: 3px solid #ff8d60;
+  padding: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
-.today {
-  background-color: #ff8d60;
-  color: white;
-  margin: 20px;
-  margin-top: 50px;
-  padding: 15px;
-  border-radius: 10px;
+.practiced {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   text-align: center;
+  background-color: #ff8d60;
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+  font-size: larger;
+  border: solid #ffb99d 4px;
+}
+
+.one {
+  margin-top: 30px;
+  display: flex;
+  padding: 17px;
+  background-color: #ff8d6000;
+  color: #ff8d60;
+  margin-bottom: 5px;
+  border: solid #ff8d60 2px;
+  border-radius: 10px;
+}
+
+.two {
+  display: flex;
+  padding: 17px;
+  background: #ff8d6000;
+  color: #ff8d60;
+  margin-bottom: 5px;
+  border: solid #ff8d60 2px;
+  border-radius: 10px;
+}
+
+.three {
+  display: flex;
+  padding: 17px;
+  background: #ff8d6000;
+  color: #ff8d60;
+  margin-bottom: 5px;
+  border: solid #ff8d60 2px;
+  border-radius: 10px;
+}
+
+.date {
+  padding-right: 48%;
+  font-weight: bolder;
+}
+
+.dates {
+  padding-right: 45%;
+  font-weight: bolder;
 }
