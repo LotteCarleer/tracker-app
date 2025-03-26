@@ -57,12 +57,24 @@ h1 {
 }
 
 .enter {
-  text-decoration: ;
   border-color: #ffb99d;
   background-color: #ff8d60;
   color: #ffffff;
   padding: 10px;
   padding-left: 25px;
   padding-right: 25px;
-  margin-left: 200px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+}
+
+.guitar img {
+  max-width: 450px;
+}
+
+.guitar {
+  display: flex;
+  justify-content: center;
 }
