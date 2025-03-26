@@ -57,16 +57,22 @@ h1 {
   background-color: #ff8d60;
   text-align: center;
   margin: 20px;
-  margin-top: 400px;
+  margin-top: 370px;
   border-radius: 6px;
   color: white;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.301);
 }
 
-.input p {
-  padding-top: 15px;
-  padding-bottom: 10px;
+.update {
+  padding-top: 0px;
+  padding-bottom: 0px;
   font-weight: lighter;
+}
+
+.today {
+  font-weight: bold;
+  padding-top: 15px;
+  font-size: larger;
 }
 
 .input input {
