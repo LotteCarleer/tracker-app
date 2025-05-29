@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="log.css" />
+    <script src="script.js"></script>
   </head>
   <body>
     <h1>StrumTrack</h1>
     <a class="back" href="index.html">Go back</a>
 
     <div class="input">
-      <p class="today">Today: March 26, 2025</p>
+      <p class="today">Today:</p>
       <p class="update">Update your practice time</p>
 
       <input
@@ -27,6 +28,21 @@
     <div class="guitar">
       <img src="/Adobe Express - file (4).png" alt="" />
     </div>
-    <script src="script.js"></script>
+    <script>
+      window.addEventListener("DOMContentLoaded", () => {
+        const todayElement = document.querySelector(".today");
+        if (todayElement) {
+          const today = new Date();
+          const options = {
+            weekday: "long",
+            day: "numeric",
+            month: "long",
+            year: "numeric",
+          };
+          const formattedDate = today.toLocaleDateString("en-GB", options);
+          todayElement.textContent = `Today: ${formattedDate}`;
+        }
+      });
+    </script>
   </body>
 </html>
