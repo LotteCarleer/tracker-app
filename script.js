@@ -14,7 +14,11 @@ window.addEventListener("DOMContentLoaded", () => {
           const timesObject =
             JSON.parse(localStorage.getItem("practiceTimes")) || {};
 
-          timesObject[today] = Number(time);
+          if (timesObject[today]) {
+            timesObject[today] += Number(time); // Hier telt ie op
+          } else {
+            timesObject[today] = Number(time);
+          }
 
           localStorage.setItem("practiceTimes", JSON.stringify(timesObject));
           inputField.value = "";
